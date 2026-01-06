@@ -1,4 +1,3 @@
-now i want to automate the build and delivery process using the github actions. this includes creating workflow files that automatically build docker images for each service whenever changes are pushed to the main ranc. the workflow shouls hangle tasks such as checking out the source code, setting up the bild environment, building container imaes and pusihing the imaages to container registory
 name: CI/CD Pipeline
 
 on:
